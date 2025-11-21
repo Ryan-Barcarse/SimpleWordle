@@ -1,5 +1,29 @@
-Using the Tkinter extenstion and nltk library, I made a mock wordle where you can challenge a player or a cpu.
+# Simple Wordle (Tkinter)
 
-**This is not the finished product**
+This is a work in progress remake of the game Wordle.  
+Right now it has a player vs player mode where one person enters a secret word and the other tries to guess it.  
+The game uses Tkinter for the window and NLTK for word checking.
 
-Note: to download nltk, use pip install nltk on terminal
+## Status
+
+This project is not finished yet.  
+More features will be added later, such as a player vs CPU mode.
+
+## Features
+
+- Player vs player mode  
+- Simple Tkinter user interface  
+- Checks if words are real using the NLTK word list  
+- Limits the number of attempts  
+- Shows errors for words that are not valid  
+
+## Requirements
+
+- Python 3  
+- Tkinter (included with most Python installs)  
+- NLTK  
+
+To install NLTK, run:
+
+```bash
+pip install nltk
